@@ -1,4 +1,4 @@
-import { AppAssets } from '@periodtracker/core'
+import { AppAssets } from '@oky/core'
 
 export const assets: AppAssets = {
   avatars: {
