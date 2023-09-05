@@ -2,29 +2,21 @@ import { AppAssets } from '@oky/core'
 
 export const assets: AppAssets = {
   avatars: {
-    julia: {
-      default: require('./images/static/dummy1.jpeg'),
-      small: require('./images/static/dummy1.jpeg'),
-      stationary: require('./images/static/dummy1.jpeg'),
-      stationary_colour: require('./images/static/dummy1.jpeg'),
-      bubbles: require('./images/static/dummy1.jpeg'),
-      theme: require('./images/static/dummy1.jpeg'),
+    panda: {
+      default: require('./images/static/panda.png'),
+      small: require('./images/static/panda.png'),
+      stationary: require('./images/static/panda.png'),
+      stationary_colour: require('./images/static/panda.png'),
+      bubbles: require('./images/static/panda.png'),
+      theme: require('./images/static/panda.png'),
     },
-    nur: {
-      default: require('./images/static/dummy2.jpeg'),
-      small: require('./images/static/dummy2.jpeg'),
-      stationary: require('./images/static/dummy2.jpeg'),
-      stationary_colour: require('./images/static/dummy2.jpeg'),
-      bubbles: require('./images/static/dummy2.jpeg'),
-      theme: require('./images/static/dummy2.jpeg'),
-    },
-    ari: {
-      default: require('./images/static/dummy3.png'),
-      small: require('./images/static/dummy3.png'),
-      stationary: require('./images/static/dummy3.png'),
-      stationary_colour: require('./images/static/dummy3.png'),
-      bubbles: require('./images/static/dummy3.png'),
-      theme: require('./images/static/dummy3.png'),
+    unicorn: {
+      default: require('./images/static/unicorn.png'),
+      small: require('./images/static/unicorn.png'),
+      stationary: require('./images/static/unicorn.png'),
+      stationary_colour: require('./images/static/unicorn.png'),
+      bubbles: require('./images/static/unicorn.png'),
+      theme: require('./images/static/unicorn.png'),
     },
   },
   backgrounds: {
@@ -162,9 +154,8 @@ export const assets: AppAssets = {
   },
   lottie: {
     avatars: {
-      ari: require('./lottie/ari_lottie.json'),
-      julia: require('./lottie/julia_lottie.json'),
-      nur: require('./lottie/nur_lottie.json'),
+      panda: require('./lottie/avatar.json'),
+      unicorn: require('./lottie/avatar.json'),
     },
   },
 }
