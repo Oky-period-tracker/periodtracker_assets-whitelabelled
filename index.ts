@@ -136,9 +136,6 @@ export const assets: AppAssets = {
         fertile: require('./images/static/icn_fertile_segment.png'),
         period: require('./images/static/icn_period_segment.png'),
       },
-      locales: {
-        en: require('./images/static/icn-flag_uk.png'),
-      },
     },
     dayBadge: {
       notVerifiedDay: require('./images/static/icn_oval_nv_f.png'), // change image
