@@ -145,7 +145,9 @@ export const assets: AppAssets = {
     },
   },
   general: {
-    aboutBanner: require('./images/general/about-banner.jpg'),
+    aboutBanner: {
+      en: require('./images/general/about-banner.jpg'),
+    },
     calendarStatic: {
       en: require('./images/general/calendar-static.png'),
     },
